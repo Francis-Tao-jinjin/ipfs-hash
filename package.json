@@ -1,6 +1,6 @@
 {
-  "name": "ipfs-hash",
-  "version": "1.0.0",
+  "name": "ipfs-hashing",
+  "version": "1.0.1",
   "description": "ipfs hashing function for both browser and nodejs",
   "main": "build/ipfsHash.js",
   "scripts": {

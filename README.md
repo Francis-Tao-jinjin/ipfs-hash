@@ -1,7 +1,7 @@
-# ipfs-hash
+# ipfs-hashing
 
 `
-npm i ipfs-hash
+npm i ipfs-hashing
 `
 
 using ipfs is really convenient for store and retrieve data.
@@ -11,7 +11,7 @@ However, if you want to avoid uploading the data that has the same content as an
 
 ## example
 ```javascript
-const ipfsHash = require('ipfs-Hash');
+const ipfsHash = require('ipfs-hashing');
 
 console.log(ipfsHash('Hello world'));
 //QmV8cfu6n4NT5xRr2AHdKxFMTZEJrA44qgrBCr739BN9Wb
