@@ -7,7 +7,7 @@ npm i ipfs-hash
 using ipfs is really convenient for store and retrieve data.
 Whenever you upload data to ipfs, you will receive a hash string of that data.
 
-But if you want to avoid uploading the data that has the same content with file, you may want to know the hash of the data before uploading it.
+However, if you want to avoid uploading the data that has the same content as another file, you may want to know the hash of the data before uploading it.
 
 ## example
 ```javascript
