@@ -1,0 +1,21 @@
+{
+  "name": "ipfs-hash",
+  "version": "1.0.0",
+  "description": "ipfs hashing function for both browser and nodejs",
+  "main": "build/ipfsHash.js",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && browserify src/index.js --s ipfsHash -p [ tinyify --no-flat ] > ./build/ipfsHash.js",
+    "start": "budo -d docs ./start.js:docs/bundle.js --live"
+  },
+  "author": "francis Tao jinjin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.10.38",
+    "browserify": "^16.5.2",
+    "budo": "^11.6.0",
+    "tinyify": "^3.0.0"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1"
+  }
+}
