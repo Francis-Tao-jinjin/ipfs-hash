@@ -1,6 +1,6 @@
 {
   "name": "ipfs-hashing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ipfs hashing function of `ipfs block put` for both browser and nodejs",
   "main": "build/ipfsHash.js",
   "scripts": {

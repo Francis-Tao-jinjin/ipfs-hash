@@ -3,7 +3,8 @@
 `
 npm i ipfs-hashing
 `
-This hashing method implement multihash which use in **ipfs block put**. To retrieve data with the hash, you need to **ipfs block get**.
+
+This hashing method implement multihash which use in **ipfs block put**. To retrieve data with the hash, you need to  use **ipfs block get**.
 
 ```js
 '/api/v0/block/put'
