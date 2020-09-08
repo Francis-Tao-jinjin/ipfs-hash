@@ -3,6 +3,12 @@
 `
 npm i ipfs-hashing
 `
+This hashing method implement multihash which use in **ipfs block put**. To retrieve data with the hash, you need to **ipfs block get**.
+
+```js
+'/api/v0/block/put'
+'/api/v0/block/get?arg=${hash}'
+```
 
 using ipfs is really convenient for store and retrieve data.
 Whenever you upload data to ipfs, you will receive a hash string of that data.

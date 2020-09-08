@@ -1,7 +1,7 @@
 {
   "name": "ipfs-hashing",
-  "version": "1.0.1",
-  "description": "ipfs hashing function for both browser and nodejs",
+  "version": "1.0.2",
+  "description": "ipfs hashing function of `ipfs block put` for both browser and nodejs",
   "main": "build/ipfsHash.js",
   "scripts": {
     "build": "rm -rf build && mkdir build && browserify src/index.js --s ipfsHash -p [ tinyify --no-flat ] > ./build/ipfsHash.js",
